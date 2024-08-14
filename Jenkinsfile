@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        sh 'echo passed'
+        sh 'imransetiadi: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@github.com/imransetiadi/cicd.git'
         //git branch: 'main', url: ''
       }
     }
